@@ -1,0 +1,19 @@
+WITH
+  UNIQUENESS_RF_FLOW AS (
+  SELECT
+    DT_OPERACAO,
+    COUNT(*) AS REGS_FLOW_UNIQUENESS
+  FROM
+    `nu-br-data.dataset.ready_nu_invest_flow_rf`
+group by DT_OPERACAO, CD_BOLETA 
+HAVING COUNT(1) >1)
+    SELECT
+  A.DT_OPERACAO,
+  REGS_FLOW_UNIQUENESS
+FROM
+  UNIQUENESS_RF_FLOW A
+ 
+WHERE
+  A.REGS_FLOW_UNIQUENESS <> 0  
+ORDER BY
+  dt_operacao 
