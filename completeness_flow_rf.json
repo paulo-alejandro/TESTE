@@ -1,1 +1,11 @@
-
+{
+  "id" : "C60899BC-99C3-4136-A134-ECC86D6A86C7",
+  "aloka_business_area" : "5e31bc99-b2e0-4752-8a79-92e2a116e8bb",
+  "country" : "br",
+  "control_type" : "count",
+  "upper_control_limit" : 0.0,
+  "slack_channel_code" : "C02GS7RG8TB",  
+  "running_period":13,
+  "description" : "Fixed income alarm to control completeness on the flow dataset",
+  "query" : "https://console.cloud.google.com/bigquery?sq=1018206206706:c634c22f5d9743e2b89df6f977ebc77f"
+}
