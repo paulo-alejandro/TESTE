@@ -1,11 +1,11 @@
 {
-  "id" : "8D599707-F562-468A-AF2C-622B270F9275",
+  "id" : "B49CB164-756F-4535-8EC6-6AA233C08BB5",
   "aloka_business_area" : "5e31bc99-b2e0-4752-8a79-92e2a116e8bb",
   "country" : "br",
   "control_type" : "count",
   "upper_control_limit" : 0.0,
-  "slack_channel_code" : "C0345SFQK5X",  
+  "slack_channel_code" : "C02GS7RG8TB",  
   "running_period":13,
   "description" : "Fixed income alarm to control uniqueness on the flow dataset",
-  "query" : "https://console.cloud.google.com/bigquery?sq=1018206206706:421d98a4c8994544a53d28e83f441b41"
+  "query" : "https://console.cloud.google.com/bigquery?sq=1018206206706:c634c22f5d9743e2b89df6f977ebc77f"
 }
